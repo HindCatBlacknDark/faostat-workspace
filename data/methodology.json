@@ -1,0 +1,98 @@
+{
+  "reviewedOn": "2026-11-19",
+  "scope": "External methodology notes explain the domain; they do not replace the supplied CSV or establish which methodology revision produced this export.",
+  "indicators": [
+    {
+      "label": "Energy supply",
+      "code": "4003",
+      "unit": "kcal/cap/d",
+      "unitMeaning": "kilocalories per person per day",
+      "explanation": "Estimated energy available from cereals and their products, expressed as a national per-person daily average. This is availability, not measured energy intake.",
+      "sourceIds": [
+        "catalog",
+        "methods"
+      ]
+    },
+    {
+      "label": "Dietary fibre supply",
+      "code": "4007",
+      "unit": "g/cap/d",
+      "unitMeaning": "grams per person per day",
+      "explanation": "Estimated dietary fibre available from cereals and their products, expressed as a national per-person daily average. This is availability, not measured fibre intake.",
+      "sourceIds": [
+        "catalog",
+        "methods"
+      ]
+    }
+  ],
+  "methodSummary": "FAO combines national food supply and utilization statistics to estimate food available for people. Nutrient conversion tables connect food quantities to nutrient amounts. Per-person estimates use the population for the corresponding year. These national estimates do not describe how food is distributed among people or the amounts they actually eat. The Global Nutrient Conversion Table (NCT) draws on 13 food composition tables selected from around the world. Their quality was assessed using the FAO/INFOODS Evaluation Framework for food composition tables and databases. This quality screening concerns the composition data; it does not make national availability a measurement of individual intake.",
+  "foodGroupSummary": "The published food grouping includes rice, maize, wheat, sorghum, millet and other cereals, with derived products. Its boundaries exclude some cereal-based snacks. The classification is a reference for the group; the aggregate CSV cannot reveal the commodities or proportions behind a country’s value.",
+  "flagSummary": "E — Estimated value is supplied directly in every CSV row. It is not a confidence interval, and the CSV does not identify the estimation procedure for each observation.",
+  "unresolved": [
+    "Exact nutrient-conversion table version and population revision used for this particular export: to verify.",
+    "The precise analytical definition of dietary fibre and energy-conversion factors applied to this export: to verify.",
+    "Country/year commodity composition and observation-specific estimation procedures: to verify."
+  ],
+  "sources": [
+    {
+      "id": "catalog",
+      "title": "FAO catalog — Nutrients availability based on supply utilization accounts",
+      "url": "https://data.fao.org/catalog/iso/cda4ff45-1549-4b71-bede-3c4ad4a859d4",
+      "supports": "Unit meanings, and compilation of the Global NCT from 13 food composition tables selected using the FAO/INFOODS quality evaluation framework.",
+      "verification": "Official catalog search-index text reviewed; direct page returned HTTP 403."
+    },
+    {
+      "id": "overview",
+      "title": "FAO — About food consumption estimates",
+      "url": "https://www.fao.org/measuring-hunger/food-consumption/about-food-consumption-estimates/en",
+      "supports": "Separate data sources for availability, apparent intake and individual intake; nutrient conversion tables.",
+      "verification": "Official page reviewed."
+    },
+    {
+      "id": "methods",
+      "title": "Moltedo et al. (FAO), 2026 — The First Global Platform for Harmonized Dietary Data",
+      "url": "https://doi.org/10.1016/j.tjnut.2026.101828",
+      "supports": "Methods: SUA food variable, population denominator and national availability limitations.",
+      "verification": "Publisher search-index full-text passages reviewed; direct publisher page returned HTTP 403."
+    },
+    {
+      "id": "conversion",
+      "title": "FAO — Global nutrient conversion table for FAO supply utilization accounts (2024)",
+      "url": "https://www.fao.org/food-composition/tables-and-databases/detail/global-nutrient-conversion-table-for-fao-supply-utilization-accounts/en",
+      "supports": "Official reference for the nutrient conversion resource; not confirmation of the version used in this CSV.",
+      "verification": "Official resource page search-index text reviewed; linked full publication not reviewed."
+    },
+    {
+      "id": "groups",
+      "title": "FAO — Food group classification used on FAOSTAT Food and Diet (PDF, pages 1–2)",
+      "url": "https://files-faostat.fao.org/production/FB/food_group_classification_e.pdf",
+      "supports": "Published cereals group boundaries and subgroups.",
+      "verification": "Official PDF text reviewed, pages 1–2."
+    },
+    {
+      "id": "domain",
+      "title": "FAOSTAT — Availability (based on supply utilization accounts)",
+      "url": "https://www.fao.org/faostat/en/#data/SUA",
+      "supports": "Official dataset entry point.",
+      "verification": "Dynamic entry point; no readable metadata returned. Not used alone to establish definitions."
+    },
+    {
+      "id": "evaluation",
+      "title": "FAO/INFOODS — Evaluation framework to assess the quality of published food composition tables and databases: User guide",
+      "url": "https://www.fao.org/documents/card/en?details=cc5371en",
+      "supports": "Framework named in FAO metadata as the basis for selecting sound-quality food composition tables for the Global NCT.",
+      "verification": "Reference supplied by the user; its role independently corroborated in official FAO catalog indexed text. Full framework document not reviewed here."
+    },
+    {
+      "id": "user-collection",
+      "title": "User-supplied FAO catalog metadata — Data collection method",
+      "url": "https://data.fao.org/catalog/iso/cda4ff45-1549-4b71-bede-3c4ad4a859d4",
+      "supports": "Collection channels stated in the methodology guide.",
+      "verification": "Transcribed from metadata supplied by the user; exact collection-method passage not independently retrieved in this review."
+    }
+  ],
+  "collectionSummary": "National data are collected through questionnaires, official websites, official trade data, publications, specialized institutions and literature review. This domain-level description was supplied by the user; it does not identify which source was used for each country/year observation.",
+  "coverageSummary": "The supplied domain metadata describes 178 countries and territories, using FAOSTAT geography and UN M49 codes, with nutrients disaggregated by FAO/WHO GIFT food groups. The active cereals exercise contains only the 43 countries present in the original CSV, for 2019–2023. Domain coverage does not imply that every country has data for every year.",
+  "supplementalSummary": "The supplemental result contains Calcium supply (4009) for All food groups (FG0), in mg/cap/d: 2,411 observations across 178 countries and territories, 2010–2023. There are 81 absent country–year combinations within that grid, no duplicate observation keys and no blank values. Every row is labelled Estimated value. These observations are kept separate from the cereals energy and fibre exercise. The SQL file is a SELECT query template with food-group and indicator parameters; their bindings are not recorded. It does not document nutrient calculations.",
+  "contactSummary": "The supplied catalog entries name the FAO Statistics Division (ESS), Crops, Livestock and Food Statistics Team as point of contact and custodian. These are organizational roles. The message “There are no views created for this resource yet” appears to concern a catalog preview; it is not evidence that nutrient methodology is missing. The underlying contact-resource pages were not independently verified."
+}

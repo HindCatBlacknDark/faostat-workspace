@@ -1,0 +1,392 @@
+{
+  "purpose": "Supplemental inspection only; not merged into the cereals learning dataset.",
+  "rows": 2411,
+  "columns": [
+    "faostat",
+    "m49_code",
+    "country_name_en",
+    "food_group_code",
+    "food_group",
+    "element_code",
+    "element",
+    "unit",
+    "year",
+    "indicator_code",
+    "indicator",
+    "value",
+    "flag"
+  ],
+  "countries": 178,
+  "years": [
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023"
+  ],
+  "distinctValues": {
+    "food_group_code": [
+      "FG0"
+    ],
+    "food_group": [
+      "All food groups"
+    ],
+    "indicator_code": [
+      "4009"
+    ],
+    "indicator": [
+      "Calcium supply"
+    ],
+    "unit": [
+      "mg/cap/d"
+    ],
+    "element_code": [
+      "6209"
+    ],
+    "flag": [
+      "Estimated value"
+    ]
+  },
+  "missingCountryYearCombinations": [
+    {
+      "m49_code": "192",
+      "year": "2020"
+    },
+    {
+      "m49_code": "192",
+      "year": "2021"
+    },
+    {
+      "m49_code": "192",
+      "year": "2022"
+    },
+    {
+      "m49_code": "192",
+      "year": "2023"
+    },
+    {
+      "m49_code": "408",
+      "year": "2019"
+    },
+    {
+      "m49_code": "408",
+      "year": "2020"
+    },
+    {
+      "m49_code": "408",
+      "year": "2021"
+    },
+    {
+      "m49_code": "408",
+      "year": "2022"
+    },
+    {
+      "m49_code": "408",
+      "year": "2023"
+    },
+    {
+      "m49_code": "48",
+      "year": "2010"
+    },
+    {
+      "m49_code": "48",
+      "year": "2011"
+    },
+    {
+      "m49_code": "48",
+      "year": "2012"
+    },
+    {
+      "m49_code": "48",
+      "year": "2013"
+    },
+    {
+      "m49_code": "48",
+      "year": "2014"
+    },
+    {
+      "m49_code": "48",
+      "year": "2015"
+    },
+    {
+      "m49_code": "48",
+      "year": "2016"
+    },
+    {
+      "m49_code": "48",
+      "year": "2017"
+    },
+    {
+      "m49_code": "48",
+      "year": "2018"
+    },
+    {
+      "m49_code": "520",
+      "year": "2010"
+    },
+    {
+      "m49_code": "520",
+      "year": "2011"
+    },
+    {
+      "m49_code": "520",
+      "year": "2012"
+    },
+    {
+      "m49_code": "520",
+      "year": "2013"
+    },
+    {
+      "m49_code": "520",
+      "year": "2014"
+    },
+    {
+      "m49_code": "520",
+      "year": "2015"
+    },
+    {
+      "m49_code": "520",
+      "year": "2016"
+    },
+    {
+      "m49_code": "520",
+      "year": "2017"
+    },
+    {
+      "m49_code": "520",
+      "year": "2018"
+    },
+    {
+      "m49_code": "583",
+      "year": "2010"
+    },
+    {
+      "m49_code": "583",
+      "year": "2011"
+    },
+    {
+      "m49_code": "583",
+      "year": "2012"
+    },
+    {
+      "m49_code": "583",
+      "year": "2013"
+    },
+    {
+      "m49_code": "583",
+      "year": "2014"
+    },
+    {
+      "m49_code": "583",
+      "year": "2015"
+    },
+    {
+      "m49_code": "583",
+      "year": "2016"
+    },
+    {
+      "m49_code": "583",
+      "year": "2017"
+    },
+    {
+      "m49_code": "583",
+      "year": "2018"
+    },
+    {
+      "m49_code": "584",
+      "year": "2010"
+    },
+    {
+      "m49_code": "584",
+      "year": "2011"
+    },
+    {
+      "m49_code": "584",
+      "year": "2012"
+    },
+    {
+      "m49_code": "584",
+      "year": "2013"
+    },
+    {
+      "m49_code": "584",
+      "year": "2014"
+    },
+    {
+      "m49_code": "584",
+      "year": "2015"
+    },
+    {
+      "m49_code": "584",
+      "year": "2016"
+    },
+    {
+      "m49_code": "584",
+      "year": "2017"
+    },
+    {
+      "m49_code": "584",
+      "year": "2018"
+    },
+    {
+      "m49_code": "634",
+      "year": "2010"
+    },
+    {
+      "m49_code": "634",
+      "year": "2011"
+    },
+    {
+      "m49_code": "634",
+      "year": "2012"
+    },
+    {
+      "m49_code": "634",
+      "year": "2013"
+    },
+    {
+      "m49_code": "634",
+      "year": "2014"
+    },
+    {
+      "m49_code": "634",
+      "year": "2015"
+    },
+    {
+      "m49_code": "634",
+      "year": "2016"
+    },
+    {
+      "m49_code": "634",
+      "year": "2017"
+    },
+    {
+      "m49_code": "634",
+      "year": "2018"
+    },
+    {
+      "m49_code": "64",
+      "year": "2010"
+    },
+    {
+      "m49_code": "64",
+      "year": "2011"
+    },
+    {
+      "m49_code": "64",
+      "year": "2012"
+    },
+    {
+      "m49_code": "64",
+      "year": "2013"
+    },
+    {
+      "m49_code": "64",
+      "year": "2014"
+    },
+    {
+      "m49_code": "64",
+      "year": "2015"
+    },
+    {
+      "m49_code": "64",
+      "year": "2016"
+    },
+    {
+      "m49_code": "64",
+      "year": "2017"
+    },
+    {
+      "m49_code": "64",
+      "year": "2018"
+    },
+    {
+      "m49_code": "776",
+      "year": "2010"
+    },
+    {
+      "m49_code": "776",
+      "year": "2011"
+    },
+    {
+      "m49_code": "776",
+      "year": "2012"
+    },
+    {
+      "m49_code": "776",
+      "year": "2013"
+    },
+    {
+      "m49_code": "776",
+      "year": "2014"
+    },
+    {
+      "m49_code": "776",
+      "year": "2015"
+    },
+    {
+      "m49_code": "776",
+      "year": "2016"
+    },
+    {
+      "m49_code": "776",
+      "year": "2017"
+    },
+    {
+      "m49_code": "776",
+      "year": "2018"
+    },
+    {
+      "m49_code": "798",
+      "year": "2010"
+    },
+    {
+      "m49_code": "798",
+      "year": "2011"
+    },
+    {
+      "m49_code": "798",
+      "year": "2012"
+    },
+    {
+      "m49_code": "798",
+      "year": "2013"
+    },
+    {
+      "m49_code": "798",
+      "year": "2014"
+    },
+    {
+      "m49_code": "798",
+      "year": "2015"
+    },
+    {
+      "m49_code": "798",
+      "year": "2016"
+    },
+    {
+      "m49_code": "798",
+      "year": "2017"
+    },
+    {
+      "m49_code": "798",
+      "year": "2018"
+    }
+  ],
+  "duplicateObservationKeys": 0,
+  "blankValues": 0,
+  "sha256": {
+    "Nutrients Availability Result.csv": "358f6df262df92f8c4fccabdd48fbb4faf928c89f030c0145e2b22a58c8b1c79",
+    "Nutrients Availability SUA Query.sql": "619b98ad75ea43c20acaa2def7bc009928874823b592d675803ea1f52202b645"
+  },
+  "queryNotes": "SELECT-only template, inspected as text and not executed. Filters food_group_code = @food_group and indicator_code = @indicator; parameter bindings, extraction date and nutrient calculation methods are not recorded."
+}
